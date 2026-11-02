@@ -543,7 +543,7 @@ export default function App() {
       name,
       description,
       trackIds: currentTrack ? [currentTrack.id] : [],
-      coverUrl: currentTrack?.coverUrl || '/src/assets/images/cover_anime_cyberpunk_1793575579788.jpg',
+      coverUrl: currentTrack?.coverUrl || '/covers/cover_anime_cyberpunk.jpg',
       createdAt: new Date().toISOString().split('T')[0],
     };
     setPlaylists((prev) => [...prev, newPlaylist]);
@@ -779,7 +779,7 @@ export default function App() {
                   <div className="flex items-center gap-4">
                     <div className="w-16 h-16 rounded-xl overflow-hidden border border-[#ff5500]/40 shadow-[0_0_20px_rgba(255,85,0,0.4)]">
                       <img
-                        src={selectedPlaylist.coverUrl || '/src/assets/images/cover_anime_cyberpunk_1793575579788.jpg'}
+                        src={selectedPlaylist.coverUrl || '/covers/cover_anime_cyberpunk.jpg'}
                         alt={selectedPlaylist.name}
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover"

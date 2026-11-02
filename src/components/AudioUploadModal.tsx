@@ -63,7 +63,7 @@ export const AudioUploadModal: React.FC<AudioUploadModalProps> = ({
       duration: duration || 240,
       durationFormatted: durationFormatted || '4:00',
       audioUrl: audioUrl,
-      coverUrl: '/src/assets/images/cover_anime_cyberpunk_1793575579788.jpg',
+      coverUrl: '/covers/cover_anime_cyberpunk.jpg',
       bpm: 128,
       year: new Date().getFullYear(),
       bitrate: '320 kbps (Lossless)',
